@@ -25,6 +25,14 @@ const routes: Array<RouteRecordRaw> = [
     meta: {
       preAuth: true
     }
+  },
+  {
+    path: '/signup',
+    name: 'Signup',
+    component: () => import('../views/SignUp.vue'),
+    meta: {
+      preAuth: true
+    }
   }
 ]
 
